@@ -1,12 +1,12 @@
 {
-  "itemGroup.wavesurvival": "Wave Survival",
-  "item.wavesurvival.fear_scroll": "Свиток страха",
-  "item.wavesurvival.abyss_devourer": "Пожиратель бездны",
-  "block.wavesurvival.spike_trap": "Шипастая ловушка",
-  "block.wavesurvival.fire_trap": "Огненная ловушка",
-  "block.wavesurvival.slow_trap": "Замедляющая ловушка",
-  "entity.wavesurvival.wave_zombie": "Воин волны",
-  "tooltip.wavesurvival.fear_scroll": "Возьмите в руку - враги вокруг в панике разбегутся",
+  "itemGroup.wavesurvival": "Wave Survival: Jihad Edition",
+  "item.wavesurvival.fear_scroll": "Билет на депортацию",
+  "item.wavesurvival.abyss_devourer": "Чеченслэйер",
+  "block.wavesurvival.spike_trap": "Шипастый халяль",
+  "block.wavesurvival.fire_trap": "Огненный намаз",
+  "block.wavesurvival.slow_trap": "Липкий ковёр",
+  "entity.wavesurvival.wave_zombie": "Нелегальный мигрант",
+  "tooltip.wavesurvival.fear_scroll": "Возьмите в руку — шайтаны в панике разбегутся",
   "tooltip.wavesurvival.fear_scroll.cooldown": "Перезарядка 20 секунд",
-  "tooltip.wavesurvival.abyss_devourer": "Легендарный клинок босса: отбрасывает, иссушает и возвращает жизнь"
+  "tooltip.wavesurvival.abyss_devourer": "Легендарный клинок: очищает землю от неверных, иссушает и возвращает жизнь"
 }
