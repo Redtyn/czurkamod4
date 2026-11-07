@@ -1,0 +1,12 @@
+{
+  "itemGroup.wavesurvival": "Wave Survival",
+  "item.wavesurvival.fear_scroll": "Свиток страха",
+  "item.wavesurvival.abyss_devourer": "Пожиратель бездны",
+  "block.wavesurvival.spike_trap": "Шипастая ловушка",
+  "block.wavesurvival.fire_trap": "Огненная ловушка",
+  "block.wavesurvival.slow_trap": "Замедляющая ловушка",
+  "entity.wavesurvival.wave_zombie": "Воин волны",
+  "tooltip.wavesurvival.fear_scroll": "Возьмите в руку - враги вокруг в панике разбегутся",
+  "tooltip.wavesurvival.fear_scroll.cooldown": "Перезарядка 20 секунд",
+  "tooltip.wavesurvival.abyss_devourer": "Легендарный клинок босса: отбрасывает, иссушает и возвращает жизнь"
+}

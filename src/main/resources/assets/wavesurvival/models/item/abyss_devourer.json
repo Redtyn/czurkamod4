@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "wavesurvival:item/abyss_devourer"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "itemGroup.wavesurvival": "Wave Survival",
+  "item.wavesurvival.fear_scroll": "Scroll of Fear",
+  "item.wavesurvival.abyss_devourer": "Abyss Devourer",
+  "block.wavesurvival.spike_trap": "Spike Trap",
+  "block.wavesurvival.fire_trap": "Fire Trap",
+  "block.wavesurvival.slow_trap": "Slowing Trap",
+  "entity.wavesurvival.wave_zombie": "Wave Warrior",
+  "tooltip.wavesurvival.fear_scroll": "Hold it in your main hand - nearby enemies flee in panic",
+  "tooltip.wavesurvival.fear_scroll.cooldown": "Cooldown 20 seconds",
+  "tooltip.wavesurvival.abyss_devourer": "Legendary boss blade: knocks back, withers and restores life"
+}

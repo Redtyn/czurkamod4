@@ -1,0 +1,6 @@
+{
+  "parent": "wavesurvival:block/trap_base",
+  "textures": {
+    "all": "minecraft:block/magma"
+  }
+}

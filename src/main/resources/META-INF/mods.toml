@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="wavesurvival"
+version="${file.jarVersion}"
+displayName="Wave Survival"
+description='''
+Выживание против волн: RPG-прокачка, боссы каждые 10 волн, ловушки, арена 51x51.
+'''
+
+[[dependencies.wavesurvival]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.wavesurvival]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "wavesurvival:block/slow_trap_off"
+    },
+    "powered=true": {
+      "model": "wavesurvival:block/slow_trap_on"
+    }
+  }
+}
