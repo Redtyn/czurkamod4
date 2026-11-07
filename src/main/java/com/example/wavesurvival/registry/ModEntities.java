@@ -17,11 +17,10 @@ public final class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITIES =
             DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, WaveSurvivalMod.MOD_ID);
 
-    public static final RegistryObject<EntityType<WaveZombieEntity>> WAVE_ZOMBIE = ENTITIES.register("wave_zombie",
-            () -> EntityType.Builder.<WaveZombieEntity>of(WaveZombieEntity::new, MobCategory.MONSTER)
-                    .sized(0.6F, 1.95F)
-                    .clientTrackingRange(8)
-                    .build(WaveSurvivalMod.MOD_ID + ":wave_zombie"));
+  public static final RegistryObject<EntityType<DirectorEntity>> DIRECTOR = ENTITIES.register("director",
+    () -> EntityType.Builder.of(DirectorEntity::new, MobCategory.MONSTER)
+        .sized(0.6F, 1.95F)
+        .build("director"));
 
     private ModEntities() {
     }
