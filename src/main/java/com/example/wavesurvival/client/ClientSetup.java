@@ -2,6 +2,7 @@ package com.example.wavesurvival.client;
 
 import com.example.wavesurvival.WaveSurvivalMod;
 import com.example.wavesurvival.registry.ModEntities;
+import net.minecraft.client.renderer.entity.NoopRenderer;
 import net.minecraft.client.renderer.entity.ZombieRenderer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -13,7 +14,10 @@ public class ClientSetup {
 
     @SubscribeEvent
     public static void onRegisterRenderers(EntityRenderersEvent.RegisterRenderers event) {
-        event.registerEntityRenderer(ModEntities.DIRECTOR.get(), ZombieRenderer::new);
+        // DirectorEntity наследуется от Monster, поэтому для него используем универсальный NoopRenderer
+        event.registerEntityRenderer(ModEntities.DIRECTOR.get(), NoopRenderer::new);
+        
+        // WaveZombieEntity наследуется от Zombie, для него подходит ZombieRenderer
         event.registerEntityRenderer(ModEntities.WAVE_ZOMBIE.get(), ZombieRenderer::new);
     }
 }
